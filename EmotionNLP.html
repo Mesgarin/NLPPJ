@@ -6054,7 +6054,10 @@ ytest shape:  (56,)</code></pre>
 <span id="cb128-10"><a href="#cb128-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb128-11"><a href="#cb128-11" aria-hidden="true" tabindex="-1"></a>        new_row <span class="op">=</span> [row[<span class="st">&#39;label_num&#39;</span>]] <span class="op">+</span> [<span class="dv">0</span>] <span class="op">*</span> <span class="dv">100</span></span>
 <span id="cb128-12"><a href="#cb128-12" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb128-13"><a href="#cb128-13" aria-hidden="true" tabindex="-1"></a>    gptword2vectrain.loc[index] <span class="op">=</span> new_row</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb128-13"><a href="#cb128-13" aria-hidden="true" tabindex="-1"></a>    gptword2vectrain.loc[index] <span class="op">=</span> new_row</span>
+<span id="cb128-14"><a href="#cb128-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb128-15"><a href="#cb128-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb128-16"><a href="#cb128-16" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>, category<span class="op">=</span><span class="pp">FutureWarning</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>C:\Users\Nastaran\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
@@ -6082,7 +6085,11 @@ C:\Users\Nastaran\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qb
 <span id="cb130-10"><a href="#cb130-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
 <span id="cb130-11"><a href="#cb130-11" aria-hidden="true" tabindex="-1"></a>        new_row <span class="op">=</span> [row[<span class="st">&#39;label_num&#39;</span>]] <span class="op">+</span> [<span class="dv">0</span>] <span class="op">*</span> <span class="dv">100</span></span>
 <span id="cb130-12"><a href="#cb130-12" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb130-13"><a href="#cb130-13" aria-hidden="true" tabindex="-1"></a>    gptword2vectest.loc[index] <span class="op">=</span> new_row</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb130-13"><a href="#cb130-13" aria-hidden="true" tabindex="-1"></a>    gptword2vectest.loc[index] <span class="op">=</span> new_row</span>
+<span id="cb130-14"><a href="#cb130-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb130-15"><a href="#cb130-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb130-16"><a href="#cb130-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb130-17"><a href="#cb130-17" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>, category<span class="op">=</span><span class="pp">FutureWarning</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell">
