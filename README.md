@@ -1,7 +1,7 @@
 # NLPPJ
 Final Project for Text Analysis and NLP Project: Advancing Emotion Detection from Text
 
-**Attention ( in the proposal I don't mention ChatGPT but as an extra thing that I think maybe interesting I added it to my project and explain it. Best regards, Nastaran Mesgari )**
+**Attention ( in the proposal I don't mention ChatGPT but as an extra thing that I think maybe interesting I added it to my project and explained it. Best regards )**
 
 Proposal of Text Analysis and Natural Language Processing Course
 Project Title: Advancing Emotion Detection from Text 
